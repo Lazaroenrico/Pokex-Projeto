@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-
+body{
+    background: #d3d3d3
+}
 *{
     margin:0;
     padding: 0;
@@ -12,21 +14,23 @@ header{
     padding: 2rem
 }
 header h1{
-    color: #2b134b;
+    color: red;
+    font-style: italic;
     font-size: 3rem;
     text-align: center;
 }
 main{
-    margin: 0 11rem 0 11rem;
+    margin: 0;
     
 }
 section{
     display: flex;
     justify-content:space-evenly ;
+    flex-wrap: wrap;
     margin-top: 5rem;
 }
 .poke{
-    width: 20vw;
+    width: 15rem;
     box-shadow: 6px 6px 6px 6px #00000020;
     border-radius: 8px;
     padding: 11px;
@@ -45,12 +49,18 @@ section h2 {
     flex-wrap: wrap;
     justify-content: center;
 }
+section#cadastro form{
+    width: 50%;
+}
 section#cadastro h2{
     width: 100%;
     text-align: center;
 }
 section#cadastro form input{
     width: 100%;
-    padding: 10px;
+    padding: 8px;
     font-size: 1rem;
+    outline: none;
+    border: solid 2px rgb(197,197, 197);
+    margin: 0 1rem 1rem 1rem;
 }

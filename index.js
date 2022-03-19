@@ -43,16 +43,24 @@ const pokedex = [
 
 app.get("/", (req, res) => {
 
-  res.render("index", { pokedex })
+  res.render("index.ejs", { pokedex })
 
 })
 
-app.get("/add", (req, res) => {
+app.get("/d", (req, res) => {
+
+  res.render("detalhes.ejs")
+
+})
+
+app.post("/add", (req, res) => {
   const pokemon = req.body
 
-  console.log(pokemon)
-
+  pokedex.push(pokemon)
   res.redirect("/")
+  
+  console.log(pokemon)
+  
 })
 
-app.listen(port, () => console.log(`Servidor rodando na porta ${port}`));
+app.listen(port, () => console.log(`Servidor rodando na porta ${port}`))
