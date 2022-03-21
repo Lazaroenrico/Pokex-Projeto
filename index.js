@@ -1,9 +1,12 @@
 import express from "express"
 import path from "path"
+require("dotenv").config()
+ 
+
 
 const app = express()
 const __dirname = path.resolve(path.dirname(""))
-const port = 4900
+const port = process.env.PORT || 4900
 
 app.set("view engine", "ejs")
 app.use(express.static(path.join(__dirname, "public")))
