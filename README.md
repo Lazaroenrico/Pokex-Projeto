@@ -12,7 +12,7 @@ Projeto cuja a finalidade é de aprendizagem no curso de FullStack, mas voltado 
  JavaScript - <img src="https://cdn.iconscout.com/icon/free/png-256/javascript-2038874-1720087.png" alt="Node.Js">
 
 
- Node.Js - <img src="" alt="">
+ Node.Js - <i class="fab fa-node-js"></i>
 
  ## Personal 
  Lázaro Enrico 
