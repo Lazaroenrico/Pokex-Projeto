@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+
+:root{
+    --cor-principal: rgb(204, 206, 207);
+    --cor-secundaria: rgb(223, 76, 76);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: gray;
+}
+h1{
+    text-align: center;
+    width: 100%;
+    background-color: red;
+    color:#ffff;
+}
+nav{
+    padding-left: 30px;
+    padding-top: 30px;
+    max-width: 150px;
+    width: 100%;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+nav ul li a {
+    text-align: center;
+    background-color: var(--cor-principal);
+    color: red;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    transition: background .3s;
+}
+nav ul li a:hover{
+    background-color: var(--cor-secundaria);
+    color: var(--cor-principal);
+}
+div#main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+div.card-container{
+    padding: auto;
+    background: rgb(219, 219, 219);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 350px;
+    height: 550px;
+    border-radius: 20px;
+    box-shadow: 5px 4px 5px 1px #3333;
+}
+div.card-container:hover{
+    background: red;
+    transform:scale(1.1);
+}
+div.card-container div.footer-card{
+    color: black;
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+div.header-card{
+    width: 100%;
+    display:flex;
+    justify-content: space-evenly;
+}
+div.card-name{
+    text-align: center;
+    font-size: 30px;
+    color: black
+}
+div.card-img img{
+    text-align: center;
+    width: 100%;
+}
+div.card-main span{
+    font-size: 20px;
+    padding-top: px;
+}
