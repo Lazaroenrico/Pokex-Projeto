@@ -29,6 +29,7 @@ main{
     gap: 30px;
 }
 h2{
+    color: black;
     padding: 20px;
     text-align: center;
 }
@@ -57,4 +58,15 @@ div.header-card{
     width: 100%;
     display:flex;
     justify-content: space-evenly;
+}
+footer{
+    background: red;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+footer a{
+    text-decoration: none;
+    color: rgb(0, 141, 254);
+    font-size: 30px;
 }

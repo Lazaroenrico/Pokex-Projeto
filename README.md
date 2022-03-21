@@ -19,6 +19,6 @@ Projeto cuja a finalidade é de aprendizagem no curso de FullStack, mas voltado 
 
 
  ## Personal 
- Lázaro Enrico 
- <a href="mailto:lazaro.enr.menezes@gmail.com">:E-mail</a>
+ Lázaro Enrico :
+ <a href="mailto:lazaro.enr.menezes@gmail.com">E-mail</a>
  
